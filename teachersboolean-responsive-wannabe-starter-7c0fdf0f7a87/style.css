@@ -112,7 +112,10 @@ img {
        .container grey{
          display: flex;
          justify-content: center;
+         height: 100vh;
        }
+
+
 
        #steps .row>.left,
        #steps .row>.central,
@@ -139,8 +142,8 @@ img {
          margin-top: 0;
        }
 
-       #why .row>.third{
-         margin-bottom: 40px;
+       #why:last-child{
+         padding-bottom: 40px;
        }
 
 

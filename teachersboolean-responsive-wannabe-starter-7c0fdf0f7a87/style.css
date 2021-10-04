@@ -87,6 +87,9 @@ img {
         display: flex;
       }
 
+      .row:first-child{
+        margin-top: 40px;
+      }
 
       #lezioni .row>.left,
       #lezioni .row>.right {
@@ -102,12 +105,13 @@ img {
 }
 
 
+/*EX-2*/
+
 @media screen and (max-width:480px){
       
        .container grey{
          display: flex;
          justify-content: center;
-
        }
 
        #steps .row>.left,
@@ -118,7 +122,36 @@ img {
          padding-bottom: 40px;
        }
 
-     
-     
+       /*EX-3*/
+
+        #why img{
+        height: 130px;
+       }
+
+       hr{
+         width: 80%;
+         margin: 40px auto;
+       }
+
+       #why .row>.first,
+       #why .row>.second,
+       #why .row>.third {
+         margin-top: 0;
+       }
+
+       #why .row>.third{
+         margin-bottom: 40px;
+       }
+
+
+
+
+
+
 
 }
+
+
+
+
+

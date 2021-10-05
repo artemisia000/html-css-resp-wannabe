@@ -81,7 +81,7 @@ img {
 
      
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:420px) {
 
       .container{
         display: flex;
@@ -107,7 +107,7 @@ img {
 
 /*EX-2*/
 
-@media screen and (max-width:480px){
+@media screen and (max-width:420px){
       
        .container grey{
          display: flex;
